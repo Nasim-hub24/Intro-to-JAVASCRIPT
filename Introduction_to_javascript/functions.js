@@ -33,3 +33,13 @@ function sum(num1 , num2){
     console.log(addition);
 }
 sum (20 , 30);
+
+// Diffrence
+
+function age(num1 , num2){
+    const diffrence = num1 - num2;
+    console.log(num1,num2, 'diffrence is: ', diffrence);
+}
+const fatherage = 40;
+const myage = 10;
+age(fatherage,myage);
