@@ -16,3 +16,20 @@ function FanOff(){
     console.log('kal katham');
 }
 FanOff(); // for print the function 
+
+// parameter in function 
+
+function square(number){
+    console.log('given number is: ' , number);
+    const borgo = number*number;
+    console.log('borgo is: ', borgo);
+}
+square(4);
+
+// using two parameter in a function 
+
+function sum(num1 , num2){
+    const addition = num1 + num2;
+    console.log(addition);
+}
+sum (20 , 30);
