@@ -21,3 +21,13 @@ doubleit(12);
 console.log('-----------');
 doubleit(30);
 console.log('------------');
+
+//argument using two parameter 
+
+function agediffrence(age1 , age2){
+    const diffrence = age1 - age2;
+    console.log(age1, age2, 'diffrence is: ' , diffrence);
+}
+const fatherage = 50;
+const sonage = 20;
+agediffrence(fatherage, sonage);
