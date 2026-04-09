@@ -11,3 +11,16 @@ function tentimes(number){
 
 const output = tentimes(10);
 console.log('output is:', output);
+
+// return using conditional
+
+function isEven(number){
+    if(number%2 ===0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+console.log(isEven(5));
+console.log(isEven(20));
